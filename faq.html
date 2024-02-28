@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iLearning | Faq</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!-- Video JS -->
+    <link rel="stylesheet" href="assets/css/video-js.css">
+    <!-- Quill CSS -->
+    <link rel="stylesheet" href="assets/css/quill.snow.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- Header Section Start -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="d-flex justify-content-end d-xl-none resp-none">
+                <div>
+                    <div class="header-buttons">
+                        <div data-bs-toggle="modal" data-bs-target="#header-cartModal" class="cart-btn">
+                            <img src="assets/images/icons/cart.svg" alt="cart">
+                            <div class="cart-number">2</div>
+                        </div>
+                        <a href="sign-in.html" class="signin-btn">Login</a>
+                        <a href="sign-up.html" class="signup-btn">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <nav class="navbar navbar-expand-xl">
+                    <div class="container-fluid">
+                        <a class="navbar-brand header-logo" href="index.html">
+                            <div class="">
+                                <img id="header-logo" src="assets/images/icons/logo-dark.svg" alt="logo">
+                            </div>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#headerNavbarDropdown" aria-controls="headerNavbarDropdown"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-menu-icon"><i class="fa-solid fa-bars"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="headerNavbarDropdown">
+                            <ul class="navbar-nav me-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="index.html" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Home
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                                        <li><a class="dropdown-item" href="index2.html">Home 2</a></li>
+                                        <li><a class="dropdown-item" href="index3.html">Home 3</a></li>
+                                        <li><a class="dropdown-item" href="index4.html">Home 4</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="courses.html">Courses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="instructor.html">Instructors</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="shop.html">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="user-profile.html">User Profile</a></li>
+                                        <li><a class="dropdown-item" href="testimonial.html">Testimonial</a></li>
+                                        <li><a class="dropdown-item" href="sign-up.html">Sign Up</a></li>
+                                        <li><a class="dropdown-item" href="sign-in.html">Sign In</a></li>
+                                        <li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
+                                        <li><a class="dropdown-item" href="no-job.html">No Job</a></li>
+                                        <li><a class="dropdown-item" href="new-password.html">New Password</a></li>
+                                        <li><a class="dropdown-item" href="purchases-course.html">Purchases Course</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="my-purchases.html">My Purchases</a></li>
+                                        <li><a class="dropdown-item" href="my-learning.html">My Learning</a></li>
+                                        <li><a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="faq.html">Faq</a></li>
+                                        <li><a class="dropdown-item" href="event.html">Event</a></li>
+                                        <li><a class="dropdown-item" href="courses.html">Courses</a></li>
+                                        <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                                        <li><a class="dropdown-item" href="check-mail.html">Check Mail</a></li>
+                                        <li><a class="dropdown-item" href="certificate.html">Certificate</a></li>
+                                        <li><a class="dropdown-item" href="career.html">Career</a></li>
+                                        <li><a class="dropdown-item" href="career-details.html">Career Details</a></li>
+                                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                        <li><a class="dropdown-item" href="blog-details.html">Blog Details</a></li>
+                                        <li><a class="dropdown-item" href="become-instructor.html">Become An
+                                                Instructor</a></li>
+                                        <li><a class="dropdown-item" href="account-setting.html">Account Setting</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                                        <li><a class="dropdown-item" href="404.html">404</a></li>
+                                        <li><a class="dropdown-item" href="">User</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pricing.html">Pricing</a>
+                                </li>
+                            </ul>
+                            <div class="header-buttons d-none d-xl-flex">
+                                <div data-bs-toggle="modal" data-bs-target="#header-cartModal" class="cart-btn">
+                                    <img src="assets/images/icons/cart.svg" alt="cart">
+                                    <div class="cart-number">2</div>
+                                </div>
+                                <a href="sign-in.html" class="signin-btn">Login</a>
+                                <a href="sign-up.html" class="signup-btn">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+
+    <!-- Page Title Section Start -->
+    <div id="page-title" class="page-title section">
+        <div class="page-title-area">
+            <div class="container">
+                <div class="page-title-box">
+                    <div class="page-title-left">
+                        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                            <ol class="breadcrumb page-breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Pricing Plan</li>
+                            </ol>
+                        </nav>
+                        <h2 class="page-title">Pricing Plan</h2>
+                    </div>
+                    <div class="page-title-right">
+                        <img src="assets/images/banner/pricing.png" alt="page-title">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Title Section End -->
+
+
+    <div id="faq" class="faq section">
+        <div class="faq-area">
+            <div class="container">
+                <div class="section-side-title-box row">
+                    <div class="col-xl-7 col-md-12 pe-xl-5 mb-4 mb-xl-0">
+                        <h2 class="mb-4">Frequently asked questions</h2>
+                        <p>Especially in the beginning. Don't waste your time going at it alone. As my mentee Chris
+                            put
+                            it. The sessions with
+                            Jascha.</p>
+                    </div>
+                    <div class="col-xl-5 col-md-12 faq-heading-right">
+                        <p><span><img src="assets/images/icons/ques.svg" alt=""></span> Still have a question?</p>
+                        <a href="#" class="btn-purple">Contact Us</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="faq-box">
+                        <div class="accordion row" id="accordionFaq">
+                            <div class="col-md-6">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faqOne">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                            aria-expanded="false" aria-controls="collapseOne">
+                                            Am I eligible for admission?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="faqOne"
+                                        data-bs-parent="#accordionFaq">
+                                        <div class="accordion-body">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, sit
+                                            voluptate ad optio fuga itaque aperiam commodi doloremque atque ducimus
+                                            voluptatem. Soluta molestiae enim distinctio illo dolorum similique, odio
+                                            cumque animi perferendis quis doloremque tempora alias quidem veritatis
+                                            saepe tenetur possimus, unde vero omnis eius sit eum laborum expedita dicta?
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faqTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            Any Prerequisites To Learn Python?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="faqTwo"
+                                        data-bs-parent="#accordionFaq">
+                                        <div class="accordion-body">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, sit
+                                            voluptate ad optio fuga itaque aperiam commodi doloremque atque ducimus
+                                            voluptatem. Soluta molestiae enim distinctio illo dolorum similique, odio
+                                            cumque animi perferendis quis doloremque tempora alias quidem veritatis
+                                            saepe tenetur possimus, unde vero omnis eius sit eum laborum expedita dicta?
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faqThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            How long it take to create a video course?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="faqThree" data-bs-parent="#accordionFaq">
+                                        <div class="accordion-body">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit saepe,
+                                            blanditiis eum adipisci dolorum reprehenderit laudantium sapiente quasi
+                                            illum dolores, sint nulla similique dignissimos explicabo error impedit
+                                            maiores veritatis incidunt. Iure, ratione? Eius quis repudiandae voluptatem
+                                            obcaecati in! Itaque ut rerum dolorum voluptas facilis perferendis
+                                            blanditiis provident molestiae consequuntur earum!
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faqFour">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
+                                            What does it take become an author?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="faqFour"
+                                        data-bs-parent="#accordionFaq">
+                                        <div class="accordion-body">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit saepe,
+                                            blanditiis eum adipisci dolorum reprehenderit laudantium sapiente quasi
+                                            illum dolores, sint nulla similique dignissimos explicabo error impedit
+                                            maiores veritatis incidunt. Iure, ratione? Eius quis repudiandae voluptatem
+                                            obcaecati in! Itaque ut rerum dolorum voluptas facilis perferendis
+                                            blanditiis provident molestiae consequuntur earum!
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faqFive">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                            aria-expanded="false" aria-controls="collapseFive">
+                                            How do I redeem a coupon?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="faqFive"
+                                        data-bs-parent="#accordionFaq">
+                                        <div class="accordion-body">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit saepe,
+                                            blanditiis eum adipisci dolorum reprehenderit laudantium sapiente quasi
+                                            illum dolores, sint nulla similique dignissimos explicabo error impedit
+                                            maiores veritatis incidunt. Iure, ratione? Eius quis repudiandae voluptatem
+                                            obcaecati in! Itaque ut rerum dolorum voluptas facilis perferendis
+                                            blanditiis provident molestiae consequuntur earum!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faqSix">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                                            aria-expanded="false" aria-controls="collapseSix">
+                                            How long is my personal free trial?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="faqSix"
+                                        data-bs-parent="#accordionFaq">
+                                        <div class="accordion-body">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, sit
+                                            voluptate ad optio fuga itaque aperiam commodi doloremque atque ducimus
+                                            voluptatem. Soluta molestiae enim distinctio illo dolorum similique, odio
+                                            cumque animi perferendis quis doloremque tempora alias quidem veritatis
+                                            saepe tenetur possimus, unde vero omnis eius sit eum laborum expedita dicta?
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faqSeven">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                                            aria-expanded="false" aria-controls="collapseSeven">
+                                            How to Change my Plan using PayPal?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSeven" class="accordion-collapse collapse"
+                                        aria-labelledby="faqSeven" data-bs-parent="#accordionFaq">
+                                        <div class="accordion-body">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, sit
+                                            voluptate ad optio fuga itaque aperiam commodi doloremque atque ducimus
+                                            voluptatem. Soluta molestiae enim distinctio illo dolorum similique, odio
+                                            cumque animi perferendis quis doloremque tempora alias quidem veritatis
+                                            saepe tenetur possimus, unde vero omnis eius sit eum laborum expedita dicta?
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faqEight">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseEight"
+                                            aria-expanded="false" aria-controls="collapseEight">
+                                            How long is my personal free trial?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEight" class="accordion-collapse collapse"
+                                        aria-labelledby="faqEight" data-bs-parent="#accordionFaq">
+                                        <div class="accordion-body">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit saepe,
+                                            blanditiis eum adipisci dolorum reprehenderit laudantium sapiente quasi
+                                            illum dolores, sint nulla similique dignissimos explicabo error impedit
+                                            maiores veritatis incidunt. Iure, ratione? Eius quis repudiandae voluptatem
+                                            obcaecati in! Itaque ut rerum dolorum voluptas facilis perferendis
+                                            blanditiis provident molestiae consequuntur earum!
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faqNine">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseNine"
+                                            aria-expanded="false" aria-controls="collapseNine">
+                                            Any Prerequisites To Learn Python?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="faqNine"
+                                        data-bs-parent="#accordionFaq">
+                                        <div class="accordion-body">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit saepe,
+                                            blanditiis eum adipisci dolorum reprehenderit laudantium sapiente quasi
+                                            illum dolores, sint nulla similique dignissimos explicabo error impedit
+                                            maiores veritatis incidunt. Iure, ratione? Eius quis repudiandae voluptatem
+                                            obcaecati in! Itaque ut rerum dolorum voluptas facilis perferendis
+                                            blanditiis provident molestiae consequuntur earum!
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faqTen">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTen"
+                                            aria-expanded="false" aria-controls="collapseTen">
+                                            What does it take become an author?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="faqTen"
+                                        data-bs-parent="#accordionFaq">
+                                        <div class="accordion-body">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit saepe,
+                                            blanditiis eum adipisci dolorum reprehenderit laudantium sapiente quasi
+                                            illum dolores, sint nulla similique dignissimos explicabo error impedit
+                                            maiores veritatis incidunt. Iure, ratione? Eius quis repudiandae voluptatem
+                                            obcaecati in! Itaque ut rerum dolorum voluptas facilis perferendis
+                                            blanditiis provident molestiae consequuntur earum!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ section End -->
+
+
+
+    <!-- Common Question Section Start -->
+    <div id="common-ques" class="common-ques section">
+        <div class="common-ques-area">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title-box">
+                        <h2>Common Questions</h2>
+                        <p>Especially in the beginning. Don't waste your time going at it alone. As my mentee Chris put
+                            it. The sessions with
+                            Jascha.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="accordion cq-slider" id="accordionCq">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="cqOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#cqcollapseOne" aria-expanded="false" aria-controls="cqcollapseOne">
+                                Am I eligible for admission?
+                            </button>
+                        </h2>
+                        <div id="cqcollapseOne" class="accordion-collapse collapse" aria-labelledby="cqOne"
+                            data-bs-parent="#accordionCq">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, sit
+                                voluptate ad optio fuga itaque aperiam commodi doloremque atque ducimus
+                                voluptatem. Soluta molestiae enim distinctio illo dolorum similique, odio
+                                cumque animi perferendis quis doloremque tempora alias quidem veritatis
+                                saepe tenetur possimus, unde vero omnis eius sit eum laborum expedita dicta?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="cqTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#cqcollapseTwo" aria-expanded="false" aria-controls="cqcollapseTwo">
+                                Any Prerequisites To Learn Python?
+                            </button>
+                        </h2>
+                        <div id="cqcollapseTwo" class="accordion-collapse collapse" aria-labelledby="cqTwo"
+                            data-bs-parent="#accordionCq">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, sit
+                                voluptate ad optio fuga itaque aperiam commodi doloremque atque ducimus
+                                voluptatem. Soluta molestiae enim distinctio illo dolorum similique, odio
+                                cumque animi perferendis quis doloremque tempora alias quidem veritatis
+                                saepe tenetur possimus, unde vero omnis eius sit eum laborum expedita dicta?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="cqThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#cqcollapseThree" aria-expanded="false" aria-controls="cqcollapseThree">
+                                How long it take to create a video course?
+                            </button>
+                        </h2>
+                        <div id="cqcollapseThree" class="accordion-collapse collapse" aria-labelledby="cqThree"
+                            data-bs-parent="#accordionCq">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit saepe,
+                                blanditiis eum adipisci dolorum reprehenderit laudantium sapiente quasi
+                                illum dolores, sint nulla similique dignissimos explicabo error impedit
+                                maiores veritatis incidunt. Iure, ratione? Eius quis repudiandae voluptatem
+                                obcaecati in! Itaque ut rerum dolorum voluptas facilis perferendis
+                                blanditiis provident molestiae consequuntur earum!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="cqFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#cqcollapseFour" aria-expanded="false" aria-controls="cqcollapseFour">
+                                What does it take become an author?
+                            </button>
+                        </h2>
+                        <div id="cqcollapseFour" class="accordion-collapse collapse" aria-labelledby="cqFour"
+                            data-bs-parent="#accordionCq">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit saepe,
+                                blanditiis eum adipisci dolorum reprehenderit laudantium sapiente quasi
+                                illum dolores, sint nulla similique dignissimos explicabo error impedit
+                                maiores veritatis incidunt. Iure, ratione? Eius quis repudiandae voluptatem
+                                obcaecati in! Itaque ut rerum dolorum voluptas facilis perferendis
+                                blanditiis provident molestiae consequuntur earum!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="cqFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#cqcollapseFive" aria-expanded="false" aria-controls="cqcollapseFive">
+                                How do I redeem a coupon?
+                            </button>
+                        </h2>
+                        <div id="cqcollapseFive" class="accordion-collapse collapse" aria-labelledby="cqFive"
+                            data-bs-parent="#accordionCq">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit saepe,
+                                blanditiis eum adipisci dolorum reprehenderit laudantium sapiente quasi
+                                illum dolores, sint nulla similique dignissimos explicabo error impedit
+                                maiores veritatis incidunt. Iure, ratione? Eius quis repudiandae voluptatem
+                                obcaecati in! Itaque ut rerum dolorum voluptas facilis perferendis
+                                blanditiis provident molestiae consequuntur earum!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Common Question Section End -->
+
+
+    <!-- Cart Modal Start -->
+    <div class="modal fade cartModal" id="header-cartModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div class="modal-body">
+                    <div class="cart-product-wrapper mb-5">
+                        <div class="single-cart-product mb-4">
+                            <div>
+                                <div class="scp-img">
+                                    <img src="assets/images/cart-img-1.png" alt="cart-img">
+                                </div>
+                            </div>
+                            <div class="scp-content">
+                                <a href="shop-details.html">The Three Musketeers, by
+                                    Alexandre Dumas</a>
+                                <span>1 Coppies</span>
+                                <p>$49.00</p>
+                            </div>
+                        </div>
+                        <div class="single-cart-product mb-4">
+                            <div>
+                                <div class="scp-img">
+                                    <img src="assets/images/cart-img-2.png" alt="cart-img">
+                                </div>
+                            </div>
+                            <div class="scp-content">
+                                <a href="shop-details.html">The Three Musketeers, by
+                                    Alexandre Dumas</a>
+                                <span>1 Coppies</span>
+                                <p>$49.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-total mb-4">
+                        <p>Total Amount</p>
+                        <span>$49</span>
+                    </div>
+                    <a href="#" class="w-100 btn-purple text-center">Check Out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cart Modal End -->
+
+
+
+    <!-- Scroll To Top Start -->
+    <button id="scrollToTop" class="scrollToTop"><i class="fa-solid fa-arrow-up"></i></button>
+    <!-- Scroll To Top End -->
+
+
+
+    <!-- Subscribe Section Start -->
+    <div id="subscribe" class="subscribe section">
+        <div class="subscribe-area">
+            <div class="container">
+                <div class="row">
+                    <div class="subscibe-area">
+                        <div class="subscribe-box">
+                            <img class="subscribe-bg" src="assets/images/subscribe-bg.svg" alt="subscribe-bg">
+                            <div class="subscribe-content">
+                                <h2>Subscribe For Get Update</h2>
+                                <div class="subscibe-bottom">
+                                    <p>30k+ students daily learn with Edugo. Subscribe for new courses.</p>
+
+                                    <div class="subscribe-form-box">
+                                        <input class="form-control" type="text" placeholder="Enter your email">
+                                        <button class="btn-purple">Subscribe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Subscribe Section End -->
+
+
+    <!-- Footer Section Start -->
+    <footer id="footer" class="footer">
+        <div class="footer-area">
+            <div class="container">
+                <div class="row footer-middle">
+                    <div class="col-xl-4 col-lg-3 col-md-4 col-sm-8 mb-4 mb-lg-0">
+                        <div class="footer-content">
+                            <div class="footer-logo">
+                                <img src="assets/images/icons/footer-logo.svg" alt="logo">
+                            </div>
+                            <p>Ilearning is a registered
+                                trademark of ilearning.co</p>
+                            <ul class="footer-social">
+                                <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/?original_referer="><i
+                                            class="fa-brands fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 mb-4 mb-lg-0">
+                        <div class="footer-menu">
+                            <h2 class="menu-category">Courses Category</h2>
+                            <ul class="footer-menu-list">
+                                <li><a href="#">Desgin</a></li>
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Sales Marketing</a></li>
+                                <li><a href="#">Data Science</a></li>
+                                <li><a href="#">Life style</a></li>
+                                <li><a href="#">Photography</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 mb-4 mb-sm-0">
+                        <div class="footer-menu">
+                            <h2 class="menu-category">Resources</h2>
+                            <ul class="footer-menu-list">
+                                <li><a href="#">Learners</a></li>
+                                <li><a href="#">Instructor</a></li>
+                                <li><a href="#">My account</a></li>
+                                <li><a href="#">Wishlist</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Event</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 mb-4 mb-sm-0">
+                        <div class="footer-menu">
+                            <h2 class="menu-category">Quick links</h2>
+                            <ul class="footer-menu-list">
+                                <li><a href="#">Course</a></li>
+                                <li><a href="#">Courses</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Testimonial</a></li>
+                                <li><a href="#">Career</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-1 col-md-4 col-sm-4">
+                        <div class="footer-menu">
+                            <h2 class="menu-category">More</h2>
+                            <ul class="footer-menu-list">
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-0 text-center">
+                    <p class="footer-copyright">© 2021 Edugo.com All Right Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-3.6.4.min.js"></script>
+    <!-- Waypoint -->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Isotope -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- Counter Up -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <!-- Quill Js -->
+    <script src="assets/js/quill.js"></script>
+    <!-- Video Js -->
+    <script src="assets/js/video.min.js"></script>
+    <script src="assets/js/videojs-playlist.min.js"></script>
+    <!-- Main Script -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

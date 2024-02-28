@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iLearning | Product Details</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!-- Video JS -->
+    <link rel="stylesheet" href="assets/css/video-js.css">
+    <!-- Quill CSS -->
+    <link rel="stylesheet" href="assets/css/quill.snow.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- Header Section Start -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="d-flex justify-content-end d-xl-none resp-none">
+                <div>
+                    <div class="header-buttons">
+                        <div data-bs-toggle="modal" data-bs-target="#header-cartModal" class="cart-btn">
+                            <img src="assets/images/icons/cart.svg" alt="cart">
+                            <div class="cart-number">2</div>
+                        </div>
+                        <a href="sign-in.html" class="signin-btn">Login</a>
+                        <a href="sign-up.html" class="signup-btn">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <nav class="navbar navbar-expand-xl">
+                    <div class="container-fluid">
+                        <a class="navbar-brand header-logo" href="index.html">
+                            <div class="">
+                                <img id="header-logo" src="assets/images/icons/logo-dark.svg" alt="logo">
+                            </div>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#headerNavbarDropdown" aria-controls="headerNavbarDropdown"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-menu-icon"><i class="fa-solid fa-bars"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="headerNavbarDropdown">
+                            <ul class="navbar-nav me-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="index.html" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Home
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                                        <li><a class="dropdown-item" href="index2.html">Home 2</a></li>
+                                        <li><a class="dropdown-item" href="index3.html">Home 3</a></li>
+                                        <li><a class="dropdown-item" href="index4.html">Home 4</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="courses.html">Courses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="instructor.html">Instructors</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="shop.html">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="user-profile.html">User Profile</a></li>
+                                        <li><a class="dropdown-item" href="testimonial.html">Testimonial</a></li>
+                                        <li><a class="dropdown-item" href="sign-up.html">Sign Up</a></li>
+                                        <li><a class="dropdown-item" href="sign-in.html">Sign In</a></li>
+                                        <li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
+                                        <li><a class="dropdown-item" href="no-job.html">No Job</a></li>
+                                        <li><a class="dropdown-item" href="new-password.html">New Password</a></li>
+                                        <li><a class="dropdown-item" href="purchases-course.html">Purchases Course</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="my-purchases.html">My Purchases</a></li>
+                                        <li><a class="dropdown-item" href="my-learning.html">My Learning</a></li>
+                                        <li><a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="faq.html">Faq</a></li>
+                                        <li><a class="dropdown-item" href="event.html">Event</a></li>
+                                        <li><a class="dropdown-item" href="courses.html">Courses</a></li>
+                                        <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                                        <li><a class="dropdown-item" href="check-mail.html">Check Mail</a></li>
+                                        <li><a class="dropdown-item" href="certificate.html">Certificate</a></li>
+                                        <li><a class="dropdown-item" href="career.html">Career</a></li>
+                                        <li><a class="dropdown-item" href="career-details.html">Career Details</a></li>
+                                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                        <li><a class="dropdown-item" href="blog-details.html">Blog Details</a></li>
+                                        <li><a class="dropdown-item" href="become-instructor.html">Become An
+                                                Instructor</a></li>
+                                        <li><a class="dropdown-item" href="account-setting.html">Account Setting</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                                        <li><a class="dropdown-item" href="404.html">404</a></li>
+                                        <li><a class="dropdown-item" href="">User</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pricing.html">Pricing</a>
+                                </li>
+                            </ul>
+                            <div class="header-buttons d-none d-xl-flex">
+                                <div data-bs-toggle="modal" data-bs-target="#header-cartModal" class="cart-btn">
+                                    <img src="assets/images/icons/cart.svg" alt="cart">
+                                    <div class="cart-number">2</div>
+                                </div>
+                                <a href="sign-in.html" class="signin-btn">Login</a>
+                                <a href="sign-up.html" class="signup-btn">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+
+
+    <!-- Page Title Section Start -->
+    <div id="page-title" class="page-title section">
+        <div class="page-title-area">
+            <div class="container">
+                <div class="page-title-box">
+                    <div class="page-title-left">
+                        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                            <ol class="breadcrumb page-breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#">Product</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Product Details</li>
+                            </ol>
+                        </nav>
+                        <h2 class="page-title">Product Details</h2>
+                    </div>
+                    <div class="page-title-right">
+                        <img src="assets/images/about-page.png" alt="page-title">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Title Section End -->
+
+
+    <!-- Product Details Page Section Start -->
+    <div id="product-details-page" class="product-details-page">
+        <div class="product-details-page-area section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xxl-4 col-xl-5 col-lg-12">
+                        <div class="pdb-top d-xl-none mb-4">
+                            <h2 class="pdb-title">The Three Musketeers, by Alexandre Dumas</h2>
+                            <div class="ratings mb-4">
+                                <p class="rating-average">5.0</p>
+                                <ul>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <p class="total-rating">(31)</p>
+                            </div>
+                            <div class="product-author">
+                                <div class="product-img">
+                                    <img src="assets/images/testimonial/testimonial-1.png" alt="">
+                                </div>
+                                <div>
+                                    <h3 class="product-name">Courtney Henry</h3>
+                                    <p class="product-post">UX/UI Student</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-full-img mb-2 mb-lg-0">
+                            <img src="assets/images/products/product-details.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xxl-8 col-xl-7 col-lg-12">
+                        <div class="product-details-box">
+                            <div class="pdb-top">
+                                <h2 class="pdb-title d-none d-xl-flex">The Three Musketeers, by Alexandre Dumas</h2>
+                                <div class="ratings d-none d-xl-flex">
+                                    <p class="rating-average">5.0</p>
+                                    <ul>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                    </ul>
+                                    <p class="total-rating">(31)</p>
+                                </div>
+
+                                <div class="product-author  d-none d-xl-flex">
+                                    <div class="product-img">
+                                        <img src="assets/images/testimonial/testimonial-1.png" alt="">
+                                    </div>
+                                    <div>
+                                        <h3 class="product-name">Courtney Henry</h3>
+                                        <p class="product-post">UX/UI Student</p>
+                                    </div>
+                                </div>
+                                <p class="pdb-desc"><span>Book Description:</span> Consectetur adipiscing elit. Amet,
+                                    venenatis
+                                    dictum et nec. Fringilla dictum tristique cras
+                                    pellentesque consequ. Cras turpis fringilla vel, amet, rhoncus quis. Feugiat sed
+                                    nulla tincidunt.
+                                    <br><br>
+                                    Learning programming is hard. Especially in the beginning. Don't waste your time
+                                    going at it alone.As my mentee Chris
+                                    put it. The sessions with Jascha have been more valuable than eight weeks of my
+                                    professor's lectures. It's money much
+                                    better spent!
+                                </p>
+
+                                <div class="buying-box">
+                                    <div class="pricng-box">
+                                        <p class="new-price">$49.00</p>
+                                        <p class="regular-price">$80.00</p>
+                                    </div>
+                                    <div class="buying-quantity">
+                                        <div class="quantity-box">
+                                            <button id="decrement" type="button" class="decrement">-</button>
+                                            <input id="quantity" class="quantity" type="number" value="1">
+                                            <button id="increment" type="button" class="increment">+</button>
+                                        </div>
+                                        <div class="buying-btn-box">
+                                            <button type="button" data-bs-toggle="modal" data-bs-target="#cartModal"
+                                                class="add-to-cart btn-purple"><span class="me-2"><i
+                                                        class="fa-solid fa-cart-shopping"></i></span>Add To
+                                                Cart</button>
+                                            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="product-details-bottom" class="product-details-bottom section">
+            <div class="product-details-bottom-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-12">
+                            <div class="product-details-tab">
+                                <ul class="nav nav-tabs" id="myTab">
+                                    <li class="nav-item">
+                                        <button class="nav-link active" id="product-details" data-bs-toggle="tab"
+                                            data-bs-target="#product-details-pane" type="button">Product
+                                            Details</button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button class="nav-link" id="product-review" data-bs-toggle="tab"
+                                            data-bs-target="#product-review-pane" type="button"
+                                            aria-controls="product-review-pane">Customer
+                                            Review</button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="productTabContent">
+                                    <div class="tab-pane fade show active" id="product-details-pane"
+                                        aria-labelledby="product-details" tabindex="0">
+                                        <div class="tab-details">
+                                            <div class="prod-details">
+                                                <ul class="prod-det-coll">
+                                                    <li>
+                                                        <h3 class="pd-title">Book Title</h3>
+                                                        <p class="pd-text">Think and grow Rich</p>
+                                                    </li>
+                                                    <li>
+                                                        <h3 class="pd-title">Author</h3>
+                                                        <p class="pd-text">Napoleon Rich</p>
+                                                    </li>
+                                                    <li>
+                                                        <h3 class="pd-title">ISBN</h3>
+                                                        <p class="pd-text">349573985734985</p>
+                                                    </li>
+                                                    <li>
+                                                        <h3 class="pd-title">Published Date</h3>
+                                                        <p class="pd-text">December 10th 2019</p>
+                                                    </li>
+                                                    <li>
+                                                        <h3 class="pd-title">Publisher</h3>
+                                                        <p class="pd-text">Company.inc</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="product-review-pane" aria-labelledby="product-review"
+                                        tabindex="0">
+                                        <div class="tab-details">
+                                            <div class="prod-review">
+                                                <h2>Review and Rating</h2>
+                                                <div class="review-rating-box">
+                                                    <div class="review-rating-left">
+                                                        <div class="rating-num">
+                                                            <h3>4.5</h3>
+                                                        </div>
+                                                        <div class="rating-star">
+                                                            <p>Total 15 Rating (4.5)</p>
+                                                            <div class="ratings">
+                                                                <ul>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="review-rating-right">
+                                                        <button type="button" class="btn-outline-purple">Write a
+                                                            Review</button>
+                                                    </div>
+                                                </div>
+                                                <ul class="review-lg-star">
+                                                    <li><i class="fa-regular fa-star"></i></li>
+                                                    <li><i class="fa-regular fa-star"></i></li>
+                                                    <li><i class="fa-regular fa-star"></i></li>
+                                                    <li><i class="fa-regular fa-star"></i></li>
+                                                    <li><i class="fa-regular fa-star"></i></li>
+                                                </ul>
+                                                <div class="review-input mb-5">
+                                                    <textarea id="comment" rows="6" class="form-control"
+                                                        placeholder="Please write your honest opinion and give a rating..."></textarea>
+                                                </div>
+
+                                                <div class="review-comment-wrapper">
+                                                    <div class="single-review-comment mb-5">
+                                                        <div class="src-left">
+                                                            <div class="product-author">
+                                                                <div class="product-img">
+                                                                    <img src="assets/images/testimonial/testimonial-1.png"
+                                                                        alt="">
+                                                                </div>
+                                                                <div>
+                                                                    <h3 class="product-name">Courtney Henry</h3>
+                                                                    <p class="product-post">UX/UI Student</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ratings">
+                                                                <ul>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                </ul>
+                                                                <p class="rating-average">(5.0) <span class="ms-2">1 Day
+                                                                        ago</span>
+                                                                </p>
+                                                            </div>
+                                                            <p class="src-text">Wonderful writing. Nicely chosen words.
+                                                                Good
+                                                                to
+                                                                read
+                                                                overall.</p>
+                                                        </div>
+                                                        <div class="src-right">
+                                                            <div class="src-react-box">
+                                                                <button type="button"><i
+                                                                        class="fa-solid fa-thumbs-up"></i></button>
+                                                            </div>
+                                                            <div class="src-react-box">
+                                                                <button type="button"><i
+                                                                        class="fa-regular fa-thumbs-down"></i></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="single-review-comment mb-5">
+                                                        <div class="src-left">
+                                                            <div class="product-author">
+                                                                <div class="product-img">
+                                                                    <img src="assets/images/testimonial/testimonial-1.png"
+                                                                        alt="">
+                                                                </div>
+                                                                <div>
+                                                                    <h3 class="product-name">Courtney Henry</h3>
+                                                                    <p class="product-post">UX/UI Student</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ratings">
+                                                                <ul>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                </ul>
+                                                                <p class="rating-average">(5.0) <span class="ms-2">1 Day
+                                                                        ago</span>
+                                                                </p>
+                                                            </div>
+                                                            <p class="src-text">Wonderful writing. Nicely chosen words.
+                                                                Good
+                                                                to
+                                                                read
+                                                                overall.</p>
+                                                        </div>
+                                                        <div class="src-right">
+                                                            <div class="src-react-box">
+                                                                <button type="button"><i
+                                                                        class="fa-solid fa-thumbs-up"></i></button>
+                                                            </div>
+                                                            <div class="src-react-box">
+                                                                <button type="button"><i
+                                                                        class="fa-regular fa-thumbs-down"></i></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-12"></div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-12">
+                            <div class="shop-sidebar mb-5">
+                                <div class="single-sidebar">
+                                    <h2 class="sidebar-title">Popular Book</h2>
+                                    <div class="single-sidebar-product mb-4">
+                                        <div class="">
+                                            <div class="sidebar-product-img">
+                                                <img src="assets/images/products/product-sm-1.png" alt="product">
+                                            </div>
+                                        </div>
+                                        <div class="sidebar-product-content">
+                                            <div class="ratings">
+                                                <p class="rating-average">5.0</p>
+                                                <ul>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                                <p class="total-rating">(31)</p>
+                                            </div>
+                                            <a href="product-details.html">
+                                                <h4 class="sidebar-product-title">The Three Musketeers, by
+                                                    Alexandre Dumas</h4>
+                                            </a>
+                                            <p class="sidebar-product-price">$39.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="single-sidebar-product mb-4">
+                                        <div class="">
+                                            <div class="sidebar-product-img">
+                                                <img src="assets/images/products/product-sm-2.png" alt="product">
+                                            </div>
+                                        </div>
+                                        <div class="sidebar-product-content">
+                                            <div class="ratings">
+                                                <p class="rating-average">5.0</p>
+                                                <ul>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                                <p class="total-rating">(31)</p>
+                                            </div>
+                                            <a href="product-details.html">
+                                                <h4 class="sidebar-product-title">The Three Musketeers, by
+                                                    Alexandre Dumas</h4>
+                                            </a>
+                                            <p class="sidebar-product-price">$39.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="single-sidebar-product mb-4">
+                                        <div class="">
+                                            <div class="sidebar-product-img">
+                                                <img src="assets/images/products/product-sm-3.png" alt="product">
+                                            </div>
+                                        </div>
+                                        <div class="sidebar-product-content">
+                                            <div class="ratings">
+                                                <p class="rating-average">5.0</p>
+                                                <ul>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                                <p class="total-rating">(31)</p>
+                                            </div>
+                                            <a href="product-details.html">
+                                                <h4 class="sidebar-product-title">The Three Musketeers, by
+                                                    Alexandre Dumas</h4>
+                                            </a>
+                                            <p class="sidebar-product-price">$39.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="single-sidebar-product mb-4">
+                                        <div class="">
+                                            <div class="sidebar-product-img">
+                                                <img src="assets/images/products/product-sm-4.png" alt="product">
+                                            </div>
+                                        </div>
+                                        <div class="sidebar-product-content">
+                                            <div class="ratings">
+                                                <p class="rating-average">5.0</p>
+                                                <ul>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                                <p class="total-rating">(31)</p>
+                                            </div>
+                                            <a href="product-details.html">
+                                                <h4 class="sidebar-product-title">The Three Musketeers, by
+                                                    Alexandre Dumas</h4>
+                                            </a>
+                                            <p class="sidebar-product-price">$39.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Product Details Page Section End -->
+    </div>
+
+
+
+
+    <!-- Cart Modal Start -->
+    <div class="modal fade cartModal" id="cartModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div class="modal-body">
+                    <div class="cart-product-wrapper mb-5">
+                        <div class="single-cart-product mb-4">
+                            <div class="scp-img">
+                                <img src="assets/images/cart-img-1.png" alt="cart-img">
+                            </div>
+                            <div class="scp-content">
+                                <a href="shop-details.html">The Three Musketeers, by
+                                    Alexandre Dumas</a>
+                                <span>1 Coppies</span>
+                                <p>$49.00</p>
+                            </div>
+                        </div>
+                        <div class="single-cart-product mb-4">
+                            <div class="scp-img">
+                                <img src="assets/images/cart-img-2.png" alt="cart-img">
+                            </div>
+                            <div class="scp-content">
+                                <a href="shop-details.html">The Three Musketeers, by
+                                    Alexandre Dumas</a>
+                                <span>1 Coppies</span>
+                                <p>$49.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-total mb-4">
+                        <p>Total Amount</p>
+                        <span>$49</span>
+                    </div>
+                    <a href="#" class="w-100 btn-purple text-center">Check Out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cart Modal End -->
+
+
+    <!-- Cart Modal Start -->
+    <div class="modal fade cartModal" id="header-cartModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div class="modal-body">
+                    <div class="cart-product-wrapper mb-5">
+                        <div class="single-cart-product mb-4">
+                            <div>
+                                <div class="scp-img">
+                                    <img src="assets/images/cart-img-1.png" alt="cart-img">
+                                </div>
+                            </div>
+                            <div class="scp-content">
+                                <a href="shop-details.html">The Three Musketeers, by
+                                    Alexandre Dumas</a>
+                                <span>1 Coppies</span>
+                                <p>$49.00</p>
+                            </div>
+                        </div>
+                        <div class="single-cart-product mb-4">
+                            <div>
+                                <div class="scp-img">
+                                    <img src="assets/images/cart-img-2.png" alt="cart-img">
+                                </div>
+                            </div>
+                            <div class="scp-content">
+                                <a href="shop-details.html">The Three Musketeers, by
+                                    Alexandre Dumas</a>
+                                <span>1 Coppies</span>
+                                <p>$49.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-total mb-4">
+                        <p>Total Amount</p>
+                        <span>$49</span>
+                    </div>
+                    <a href="#" class="w-100 btn-purple text-center">Check Out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cart Modal End -->
+
+
+
+    <!-- Scroll To Top Start -->
+    <button id="scrollToTop" class="scrollToTop"><i class="fa-solid fa-arrow-up"></i></button>
+    <!-- Scroll To Top End -->
+
+
+
+    <!-- Subscribe Section Start -->
+    <div id="subscribe" class="subscribe section">
+        <div class="subscribe-area">
+            <div class="container">
+                <div class="row">
+                    <div class="subscibe-area">
+                        <div class="subscribe-box">
+                            <img class="subscribe-bg" src="assets/images/subscribe-bg.svg" alt="subscribe-bg">
+                            <div class="subscribe-content">
+                                <h2>Subscribe For Get Update</h2>
+                                <div class="subscibe-bottom">
+                                    <p>30k+ students daily learn with Edugo. Subscribe for new courses.</p>
+
+                                    <div class="subscribe-form-box">
+                                        <input class="form-control" type="text" placeholder="Enter your email">
+                                        <button class="btn-purple">Subscribe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Subscribe Section End -->
+
+
+    <!-- Footer Section Start -->
+    <footer id="footer" class="footer">
+        <div class="footer-area">
+            <div class="container">
+                <div class="row footer-middle">
+                    <div class="col-xl-4 col-lg-3 col-md-4 col-sm-8 mb-4 mb-lg-0">
+                        <div class="footer-content">
+                            <div class="footer-logo">
+                                <img src="assets/images/icons/footer-logo.svg" alt="logo">
+                            </div>
+                            <p>Ilearning is a registered
+                                trademark of ilearning.co</p>
+                            <ul class="footer-social">
+                                <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/?original_referer="><i
+                                            class="fa-brands fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 mb-4 mb-lg-0">
+                        <div class="footer-menu">
+                            <h2 class="menu-category">Courses Category</h2>
+                            <ul class="footer-menu-list">
+                                <li><a href="#">Desgin</a></li>
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Sales Marketing</a></li>
+                                <li><a href="#">Data Science</a></li>
+                                <li><a href="#">Life style</a></li>
+                                <li><a href="#">Photography</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 mb-4 mb-sm-0">
+                        <div class="footer-menu">
+                            <h2 class="menu-category">Resources</h2>
+                            <ul class="footer-menu-list">
+                                <li><a href="#">Learners</a></li>
+                                <li><a href="#">Instructor</a></li>
+                                <li><a href="#">My account</a></li>
+                                <li><a href="#">Wishlist</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Event</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 mb-4 mb-sm-0">
+                        <div class="footer-menu">
+                            <h2 class="menu-category">Quick links</h2>
+                            <ul class="footer-menu-list">
+                                <li><a href="#">Course</a></li>
+                                <li><a href="#">Courses</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Testimonial</a></li>
+                                <li><a href="#">Career</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-1 col-md-4 col-sm-4">
+                        <div class="footer-menu">
+                            <h2 class="menu-category">More</h2>
+                            <ul class="footer-menu-list">
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-0 text-center">
+                    <p class="footer-copyright">© 2021 Edugo.com All Right Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-3.6.4.min.js"></script>
+    <!-- Waypoint -->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Isotope -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- Counter Up -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <!-- Quill Js -->
+    <script src="assets/js/quill.js"></script>
+    <!-- Video Js -->
+    <script src="assets/js/video.min.js"></script>
+    <script src="assets/js/videojs-playlist.min.js"></script>
+    <!-- Main Script -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
